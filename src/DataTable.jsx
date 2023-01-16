@@ -18,7 +18,7 @@ function createData(
 }
 
 const rows = [
-  createData('Homework 1 Git Commands Test', "https://github.com/sonipooja2023/ACME", "https://acmeco-pooja.netlify.app/" ),
+  createData('Homework AcmeCo', "https://github.com/sonipooja2023/ACME", "https://acmeco-pooja.netlify.app/" ),
   
 ];
 
