@@ -44,8 +44,12 @@ export default function DenseTable() {
               <TableCell component="th" scope="row">
                 {row.name}
               </TableCell>
-              <TableCell align="right"><a href={rows.codelink}>GitHub Link</a></TableCell>
-              <TableCell align="right"><a href={rows.deployedLink}>GitHub Link</a></TableCell>
+              <TableCell align="right">
+                <a href={row.codelink}>GitHub Link</a>
+              </TableCell>
+              <TableCell align="right">
+                <a href={row.deployedLink}>Netlify Link</a>
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
